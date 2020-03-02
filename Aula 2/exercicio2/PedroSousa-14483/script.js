@@ -22,12 +22,13 @@ function adicionaNumero() {
 }
 
 function calcularMaiorNumero() {
-  var maior = numerosArray[0];
+  /*var maior = numerosArray[0];
   var maiorNumero = document.getElementById("maiorNumero");
   for (i = 0; i < numerosArray.length; i++) {
     if (numerosArray[i] >= maior) {
       maior = numerosArray[i];
     }
   }
-  maiorNumero.innerHTML = "Maior Número: " + maior;
+  maiorNumero.innerHTML = "Maior Número: " + maior;*/
+  maiorNumero.innerHTML = "Maior Número: " + Math.max.apply(Math, numerosArray);
 }
