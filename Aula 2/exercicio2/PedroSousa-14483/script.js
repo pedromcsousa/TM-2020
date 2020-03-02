@@ -1,7 +1,7 @@
 let numerosArray = [];
 function adicionaNumero() {
   var numero = document.getElementById("numero");
-  if (!numero.lenght) {
+  if (!numero.value) {
     alert("Insira algum número");
     return -1;
   }
